@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Drink Bar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fa fa-bars"></label>
+    <a href="index.html" class="logo">Drink<span>Bar</span></a>
+    <nav class="navbar">
+      <a href="index.html">home</a>
+      <a href="product.html">products</a>
+      <a href="about.html">about us</a>
+      <a href="contact.html">contact us</a>
+    </nav>
+    <div class="icon">
+      <a href="cart.html" class="fas fa-shopping-cart"></a>
+      <a href="login.html" class="fas fa-user"></a>
+    </div>
+  </header>
+
+  <section class="account">
+    <div class="container-4">
+      <div class="card">
+        <div class="inner-box" id="card">
+          <div class="card-front">
+            <h2>login</h2>
+            <form action=""  onsubmit="return validatedform()">
+              <input type="email" class="input-box" placeholder="your email id" required>
+              <div id="email_error">Please fill up your Email Id</div>
+              <input type="password" class="input-box" placeholder="password" required>
+              <div id="pass_error">Please fill up your Password</div>
+              <button type="submit" class="submit-btn">Submit</button>
+              <input type="checkbox"><span> Remember me</span>
+            </form>
+            <button type="register" class="" onclick="openregister()"><a href="register.html">Register Here</a></button>
+            <a href="">forgot password</a>
+          </div>
+          <!---- <div class="card-back">
+                        <h2>register</h2>
+                        <form action="">
+                            <input type="text" class="input-box" placeholder="your name" required>
+                            <input type="email" class="input-box" placeholder="your email id" required>
+                            <input type="password" class="input-box" placeholder="password" required>
+                            <button type="submit" class="submit-btn">submit</button>
+                            <input type="checkbox"><span> remember me</span>
+                        </form>
+                        <button type="button" class="btn" onclick="openlogin()">I have an account</button>
+                        <a href="">forgot password</a>
+                    </div> ---->
+        </div>
+      </div>
+    </div>
+
+    <script src="valid.js"> </script>
+  </section>
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-6">
+          <div class="box footer-link-item">
+            <h3>quick links</h3>
+            <p><a href="index.html">home</a></p>
+            <p> <a href="product.html">products</a></p>
+            <p><a href="about.html">about us</a></p>
+            <p><a href="contact.html">contact us</a></p>
+
+
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-6">
+          <div class="box footer-link-item">
+            <h3>extra links</h3>
+            <p><a href="login.html">my account</a></p>
+            <p><a href="cart.html">my order</a></p>
+            <p> <a href=""></a></p>
+
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-6">
+          <div class="box footer-link-item">
+            <h3>locations</h3>
+            <p><a href="#">edinburgh</a></p>
+            <p><a href="#">USA</a></p>
+            <p> <a href="#">japan</a></p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-6">
+          <div class="box footer-link-item">
+            <h3>contact info</h3>
+            <p> <a href="#">+44 1234 156890</a></p>
+            <p> <a href="#">example@gmail.com</a></p>
+            <p> <a href="#">xyz,edinburgh</a></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+</body>
+
+</html>
